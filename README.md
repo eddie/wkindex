@@ -18,6 +18,7 @@ Please submit a pull request, or if you are unable to do this,  post the require
 
 # Schema
 
+
 ```
 {
 
@@ -25,9 +26,9 @@ Please submit a pull request, or if you are unable to do this,  post the require
   "latest_version": "",
   "last_update": "",
   "author": "",
-  "type": "",
-  "supported": "",
-  "status": "",
+  "type": "website, app, userscript",
+  "supported": "updates, full, none",
+  "status": "working, unsupported",
   "license": "",
   "thread_url": "",
   "source_url": "",
@@ -37,7 +38,12 @@ Please submit a pull request, or if you are unable to do this,  post the require
 }
 ```
 
+# Naming Conventions
 
+When adding an add-on, please keep the following in mind:
+
+- Lowercase filename. 
+- Shorten wanikani to wk. e.g Some-Wanikani-extension.json -> some-wk-extension.json
 
 # Tasks  
 - [x] define initial schema for scripts
