@@ -1,0 +1,15 @@
+{
+  "name": "WaniKani Stroke Order",
+  "latest_version": "1.6.4",
+  "last_update": "09-05-2014",
+  "author": "Looki",
+  "type": "userscript",
+  "supported": "yes",
+  "status": "",
+  "license": "GPL v3 or later",
+  "source_url": "https://greasyfork.org/scripts/723-wanikani-stroke-order/code/WaniKani%20Stroke%20Order.user.js",
+  "thread_url": "http://www.wanikani.com/chat/api-and-third-party-apps/5139",
+  "homepage": "https://greasyfork.org/de/scripts/723-wanikani-stroke-order",
+  "screenshot_url": "",
+  "description": "Shows a kanji's stroke order on its page and during lessons and reviews."
+}
