@@ -1,0 +1,15 @@
+{
+
+  "name": "WaniKani for Android",
+  "latest_version": "1.0.0",
+  "last_update": "August 25, 2014",
+  "author": "xip",
+  "type": "Android App",
+  "supported": "2.2 and up",
+  "status": "",
+  "license": "BSD",
+  "source_url": "https://www.wanikani.com/chat/api-and-third-party-apps/6233",
+  "homepage": "https://play.google.com/store/apps/details?id=tr.xip.wanikani",
+  "screenshot_url": "https://lh4.ggpht.com/Bjkn3-Le7WY4whk33iwg35-Zz0VdyBVbZ9bUXS78fw93dpm0PsV8AKybhGbSezRNNTI=h900-rw",
+  "description": "WaniKani for Android is a client application for the kanji learning website wanikani.com. It sports a beautiful User Interface crafted according to Google's Material Design guidelines."
+}
