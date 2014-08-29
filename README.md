@@ -24,7 +24,7 @@ Please submit a pull request, or if you are unable to do this,  post the require
 
   "name": "",
   "latest_version": "",
-  "last_update": "",
+  "last_update": "YYYY-MM-DD",
   "author": "",
   "type": "website, app, userscript",
   "supported": "updates, full, none",
@@ -37,6 +37,7 @@ Please submit a pull request, or if you are unable to do this,  post the require
   "description": ""
 }
 ```
+
 
 # Naming Conventions
 
