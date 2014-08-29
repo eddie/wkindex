@@ -9,6 +9,7 @@
   "status": "unsupported",
   "license": "GPLv3",
   "source_url": "https://gist.github.com/Beanow/9ea55a4d73d6156f01c9/raw/0f2f1da608b4713a8364122d7e88276c9b10b604/wko.user.js",
+  "thread_url": "http://www.wanikani.com/chat/api-and-third-party-apps/2940",
   "homepage": "http://www.wanikani.com/chat/api-and-third-party-apps/2940",
   "screenshot_url": "https://s3.amazonaws.com/uso_ss/22462/large.jpg?1374622919",
   "description": "One of my biggest peeves with Wanikani is how once you get something wrong, you can't change it. If you type too fast and make a typo, or if the spell checker doesn't like you, you're out of luck. It's really frustrating to know an answer but have Wanikani deny it to you because it wants the '-ing' form of the verb, but you typed the infinitive. Sometimes you get lucky, and the spell checker is lenient enough to mark the answer correctly. Other times, that's not the case.\nThen,

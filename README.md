@@ -29,12 +29,14 @@ Please submit a pull request, or if you are unable to do this,  post the require
   "supported": "",
   "status": "",
   "license": "",
+  "thread_url": "",
   "source_url": "",
   "homepage": "",
   "screenshot_url": "",
   "description": ""
 }
 ```
+
 
 
 # Tasks  
