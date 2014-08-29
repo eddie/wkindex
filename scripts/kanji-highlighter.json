@@ -1,0 +1,16 @@
+{
+
+  "name": "Kanji Highlighter",
+  "latest_version": "1.6.4",
+  "last_update": "18-08-2014",
+  "author": "Looki",
+  "type": "userscript",
+  "supported": "yes",
+  "status": "",
+  "license": "",
+  "source_url": "https://greasyfork.org/scripts/722-kanji-highlighter/code/Kanji%20Highlighter.user.js",
+  "thread_url": "http://www.wanikani.com/chat/api-and-third-party-apps/5097",
+  "homepage": "https://greasyfork.org/scripts/722-kanji-highlighter",
+  "screenshot_url": "",
+  "description": "Highlights all kanji on a website using a specific color, depending on the level that it can be found in."
+}

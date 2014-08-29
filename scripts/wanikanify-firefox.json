@@ -1,0 +1,16 @@
+{
+  
+  "name": "Wanikanify (Firefox)",
+  "latest_version": "1.2",
+  "last_update": "29-08-2014",
+  "author": "Looki",
+  "type": "userscript",
+  "supported": "yes",
+  "status": "",
+  "license": "",
+  "source_url": "https://github.com/looki/wanikanify/raw/master/WaniKanify.user.js",
+  "thread_url": "http://www.wanikani.com/chat/api-and-third-party-apps/4386",
+  "homepage": "https://github.com/looki/wanikanify/",
+  "screenshot_url": "",
+  "description": "Firefox Userscript to mimic the behaviour of the WaniKanify Chrome app, which can replace known vocabulary from wanikani.com with its Japanese equivalent on any website."
+}
