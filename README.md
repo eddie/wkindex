@@ -20,7 +20,6 @@ Please submit a pull request, or if you are unable to do this,  post the require
 
 ```
 {
-
   "name": "",
   "latestVersion": "",
   "lastUpdate": "YYYY-MM-DD",
@@ -37,6 +36,10 @@ Please submit a pull request, or if you are unable to do this,  post the require
   "description": ""
 }
 ```
+
+## ID
+
+ID's are automatically generated and therefore left out of the template. ID's are the scripts 'package' filename without the .json extension.
 
 ## Platform
 
