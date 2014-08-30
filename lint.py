@@ -88,6 +88,7 @@ if __name__ == "__main__":
     for (name, script_json) in linter._scripts.iteritems():
         script = linter.lint(name, script_json)
         if script:
+            script['id'] = name.replace(".json", "")
             scripts.append(script)
 
     if options.concat:
