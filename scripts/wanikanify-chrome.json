@@ -7,6 +7,9 @@
   "type": "Chrome extension",
   "supported": "chrome",
   "status": "",
+  "platform": {
+    "chrome": "*"
+  },
   "license": "",
   "sourceUrl": "https://www.wanikani.com/chat/api-and-third-party-apps/5154",
   "homepage": "https://chrome.google.com/webstore/detail/wanikanify/dbnpfdbkecfgaffopefhalliecehhkhj?hl=en-US",

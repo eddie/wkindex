@@ -7,6 +7,9 @@
   "type": "userscript",
   "supported": "yes",
   "status": "",
+  "platform": {
+    "firefox": "*"
+  },
   "license": "",
   "sourceUrl": "https://github.com/looki/wanikanify/raw/master/WaniKanify.user.js",
   "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/4386",

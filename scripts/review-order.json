@@ -7,6 +7,9 @@
   "type": "userscript",
   "supported": "unknown",
   "status": "unknown",
+  "platform": {
+    "browser": "*"
+  },
   "license": "",
   "sourceUrl": "",
   "homepage": "http://www.wanikani.com/chat/api-and-third-party-apps/3023",

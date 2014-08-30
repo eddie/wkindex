@@ -5,8 +5,11 @@
   "lastUpdate": "2014-08-25",
   "author": "xip",
   "type": "Android App",
-  "supported": "2.2 and ",
+  "supported": "",
   "status": "active",
+  "platform": {
+    "android": ">=2.2"
+  },
   "license": "BSD",
   "sourceUrl": "https://github.com/xiprox/WaniKani-for-Android",
   "threadUrl": "https://www.wanikani.com/chat/api-and-third-party-apps/6233",
