@@ -45,7 +45,9 @@ When adding an add-on, please keep the following in mind:
 
 - Lowercase filename. 
 - Shorten wanikani to wk. e.g Some-Wanikani-extension.json -> some-wk-extension.json
+- License field in the correct format - [Full list](https://spdx.org/licenses/).
 
+    
 # Tasks  
 - [x] define initial schema for scripts
 - [ ] improve schema for scripts (needs input)
