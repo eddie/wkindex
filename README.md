@@ -71,6 +71,12 @@ ERROR:lint:file: override.json error: Invalid control character at: line 15 colu
 ERROR:lint:file: duendcat.json error: Expecting , delimiter: line 15 column 391 (char 733)
 ```
 
+## Concatenating Scripts
+
+After a succesful lint, you can concatenate the json into one single output file.
+
+```./lint.py --concat > full.json```
+
 # Tasks  
 
 - [x] define initial schema for scripts

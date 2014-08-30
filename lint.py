@@ -64,7 +64,7 @@ class Linter():
 
     def lint(self, file_name, script_json):
         try:
-            json.loads(script_json)
+            return json.loads(script_json)
         except ValueError as e:
             lint_log.error("file: %s error: %s", file_name, e)
 
@@ -75,7 +75,7 @@ class Linter():
 if __name__ == "__main__":
     parser = OptionParser()
 
-    parser.add_option("-o", "--output-file", dest="output_file")
+    parser.add_option("-c", "--concat", action="store_true")
     parser.add_option("-l", "--level",  dest="level", default="error")
     parser.add_option("-d", "--dir", dest="directory", default="scripts")
 
@@ -83,6 +83,16 @@ if __name__ == "__main__":
 
     linter = Linter()
     linter.locate_scripts(options.directory)
+    scripts = []
 
-    for (name, script) in linter._scripts.iteritems():
-        linter.lint(name, script)
+    for (name, script_json) in linter._scripts.iteritems():
+        script = linter.lint(name, script_json)
+        if script:
+            scripts.append(script)
+
+    if options.concat:
+        log.info("concatenating scripts")
+        try:
+            print(json.dumps(scripts, indent=4))
+        except:
+            log.error("failed to encode json")
