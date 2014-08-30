@@ -48,9 +48,32 @@ When adding an add-on, please keep the following in mind:
 - Shorten wanikani to wk. e.g Some-Wanikani-extension.json -> some-wk-extension.json
 - License field in the correct format - [Full list](https://spdx.org/licenses/).
 
-    
+
+# Linting + Utilities
+
+A quick script has been written and needs work, to lint the script files. 
+Eventually this tool will also act as a build tool, or as part of a build tool.
+
+In the future, the lint script should be able to identify missing fields or inconsistent 
+field data.
+
+Example usage:
+
+`./lint.py --dir=scripts`
+
+```
+ERROR:lint:file: duendcat.json error: Expecting , delimiter: line 15 column 391 (char 733)
+ERROR:lint:file: override.json error: Invalid control character at: line 15 column 502 (char 1096)
+ERROR:lint:file: override.json error: Invalid control character at: line 15 column 502 (char 1096)
+ERROR:lint:file: duendcat.json error: Expecting , delimiter: line 15 column 391 (char 733)
+````
+
+
+
 # Tasks  
+
 - [x] define initial schema for scripts
+- [x] lint tool to check for errors in script JSON
 - [ ] improve schema for scripts (needs input)
 - [ ] a name for the project
 - [ ] collect information for all scripts
