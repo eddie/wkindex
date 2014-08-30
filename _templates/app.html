@@ -22,7 +22,11 @@
       <p>{{app.description}}</p>
     </div>
     <div class="col-md-4 well">
+      {% if app.type == "userscript" and "greasyfork" in app.homepage %}
+      <a href="{{app.homepage}}/code/{{app.id}}.user.js" target="_blank" class="btn btn-primary btn-block">Install</a>
+      {% else %}
       <a href="{{app.homepage}}" target="_blank" class="btn btn-primary btn-block">Get it</a>
+      {% endif %}
     </div>
   </div>
 {% endblock %}
