@@ -5,8 +5,11 @@
   "lastUpdate": "2013-12-01",
   "author": "from the nfinite",
   "type": "Android app",
-  "supported": "2.1 and ",
+  "supported": "",
   "status": "",
+  "platform": {
+    "android": ">=2.1"
+  },
   "license": "",
   "sourceUrl": "",
   "homepage": "https://play.google.com/store/apps/details?id=com.wanikani.wkspeed",

@@ -7,6 +7,9 @@
   "type": "usersript",
   "supported": "no",
   "status": "unsupported",
+  "platform": {
+    "browser": "*"
+  },
   "license": "GPLv3",
   "sourceUrl": "https://gist.github.com/Beanow/9ea55a4d73d6156f01c9/raw/0f2f1da608b4713a8364122d7e88276c9b10b604/wko.user.js",
   "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/2940",

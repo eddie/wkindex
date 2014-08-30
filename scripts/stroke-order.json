@@ -7,6 +7,9 @@
   "type": "userscript",
   "supported": "yes",
   "status": "",
+  "platform": {
+    "browser": "*"
+  },
   "license": "GPL v3 or later",
   "sourceUrl": "https://greasyfork.org/scripts/723-wanikani-stroke-order/code/WaniKani%20Stroke%20Order.user.js",
   "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/5139",

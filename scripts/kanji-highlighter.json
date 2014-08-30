@@ -7,6 +7,9 @@
   "type": "userscript",
   "supported": "yes",
   "status": "",
+  "platform": {
+    "browser": "*"
+  },
   "license": "",
   "sourceUrl": "https://greasyfork.org/scripts/722-kanji-highlighter/code/Kanji%20Highlighter.user.js",
   "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/5097",

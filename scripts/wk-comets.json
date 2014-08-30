@@ -4,8 +4,11 @@
   "latestVersion": "",
   "lastUpdate": "",
   "author": "Maltose",
-  "type": "Flash/HTML Game",
+  "type": "game",
   "supported": "",
+  "platform": {
+    "browser": "*"
+  },
   "status": "",
   "license": "",
   "sourceUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/2722",

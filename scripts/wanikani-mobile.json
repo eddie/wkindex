@@ -5,8 +5,11 @@
   "lastUpdate": "2014-04-10",
   "author": "Alberto Cuda",
   "type": "Android app",
-  "supported": "Android 2.1 and ",
+  "supported": "",
   "status": "",
+  "platform": {
+    "android": ">=2.1"
+  },
   "license": "",
   "threadUrl" : "",
   "sourceUrl": "https://github.com/WaniKani/Android-Notification",

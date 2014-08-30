@@ -7,6 +7,9 @@
   "type": "",
   "supported": "",
   "status": "",
+  "platform": {
+    "browser": "*"
+  },
   "license": "",
   "threadUrl": "",
   "sourceUrl": "",
