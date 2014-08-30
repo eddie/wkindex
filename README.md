@@ -18,7 +18,6 @@ Please submit a pull request, or if you are unable to do this,  post the require
 
 # Schema
 
-
 ```
 {
 
@@ -27,6 +26,7 @@ Please submit a pull request, or if you are unable to do this,  post the require
   "lastUpdate": "YYYY-MM-DD",
   "author": "",
   "type": "website, app, userscript",
+  "platform": {},
   "supported": "updates, full, none",
   "status": "working, unsupported",
   "license": "",
@@ -38,7 +38,32 @@ Please submit a pull request, or if you are unable to do this,  post the require
 }
 ```
 
+## Platform
 
+Platform should be specified in the format shown below:
+
+```
+
+"platform": {
+  "browser": "*"
+}
+
+```
+
+The above example shows an add-on which is supported in all major browsers.
+If the add-on is only supported in Chrome version 30+ and Firefox version 31+ it might look something like this:
+
+```
+
+"platform": {
+  "chrome": ">=30.0",
+  "firefox": ">=31.0"
+}
+
+```
+
+Available platforms values include Firefox, chrome, safari, android, OSX, windows. 
+If a platform is missing, it is assumed that there is no support for that platform.
 
 # Naming Conventions
 
@@ -66,9 +91,7 @@ ERROR:lint:file: duendcat.json error: Expecting , delimiter: line 15 column 391 
 ERROR:lint:file: override.json error: Invalid control character at: line 15 column 502 (char 1096)
 ERROR:lint:file: override.json error: Invalid control character at: line 15 column 502 (char 1096)
 ERROR:lint:file: duendcat.json error: Expecting , delimiter: line 15 column 391 (char 733)
-````
-
-
+```
 
 # Tasks  
 
