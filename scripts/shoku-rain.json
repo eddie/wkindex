@@ -1,15 +1,15 @@
 {
 
   "name": "Shoku食Rain",
-  "latest_version": "",
-  "last_update": "",
+  "latestVersion": "",
+  "lastUpdate": "",
   "author": "Maltose",
   "type": "Flash/HTML game",
   "supported": "",
   "status": "",
   "license": "",
-  "source_url": "http://www.wanikani.com/chat/api-and-third-party-apps/2840",
+  "sourceUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/2840",
   "homepage": "http://trehalose.github.io/shokurain/",
-  "screenshot_url": "http://trehalose.github.io/shokurain/",
+  "screenshotUrl": "http://trehalose.github.io/shokurain/",
   "description": "It is basically a rain-drop catching game for practicing remembering your Kanji items and their readings and meanings."
 }

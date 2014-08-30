@@ -1,17 +1,17 @@
 {
 
   "name": "Real Numbers",
-  "latest_version": "2.8",
-  "last_update": "2014-01-24",
+  "latestVersion": "2.8",
+  "lastUpdate": "2014-01-24",
   "author": "penx",
   "type": "userscript",
   "supported": "unknown",
   "status": "working",
   "license": "",
-  "source_url": "http://pastebin.com/raw.php?i=ahWk3yNq",
+  "sourceUrl": "http://pastebin.com/raw.php?i=ahWk3yNq",
   "homepage": "http://www.wanikani.com/chat/api-and-third-party-apps/1021",
-  "thread_url": "http://www.wanikani.com/chat/api-and-third-party-apps/1021",
-  "screenshot_url": "http://i.imgur.com/AhAxA.png, http://i.imgur.com/FgmWE.png",
+  "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/1021",
+  "screenshotUrl": "http://i.imgur.com/AhAxA.png, http://i.imgur.com/FgmWE.png",
   "description": "Replaces 42+ with the real number using WaniKani API v1.0"
 }
 

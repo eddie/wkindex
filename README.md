@@ -23,20 +23,21 @@ Please submit a pull request, or if you are unable to do this,  post the require
 {
 
   "name": "",
-  "latest_version": "",
-  "last_update": "YYYY-MM-DD",
+  "latestVersion": "",
+  "lastUpdate": "YYYY-MM-DD",
   "author": "",
   "type": "website, app, userscript",
   "supported": "updates, full, none",
   "status": "working, unsupported",
   "license": "",
-  "thread_url": "",
-  "source_url": "",
+  "threadUrl": "",
+  "sourceUrl": "",
   "homepage": "",
-  "screenshot_url": "",
+  "screenshotUrl": "",
   "description": ""
 }
 ```
+
 
 
 # Naming Conventions

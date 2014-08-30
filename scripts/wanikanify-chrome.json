@@ -1,15 +1,15 @@
 {
 
   "name": "Wanikanify",
-  "latest_version": "1.0.5",
-  "last_update": "2014-01-23",
+  "latestVersion": "1.0.5",
+  "lastUpdate": "2014-01-23",
   "author": "chedkid",
   "type": "Chrome extension",
   "supported": "chrome",
   "status": "",
   "license": "",
-  "source_url": "https://www.wanikani.com/chat/api-and-third-party-apps/5154",
+  "sourceUrl": "https://www.wanikani.com/chat/api-and-third-party-apps/5154",
   "homepage": "https://chrome.google.com/webstore/detail/wanikanify/dbnpfdbkecfgaffopefhalliecehhkhj?hl=en-US",
-  "screenshot_url": "https://lh5.googleusercontent.com/G-VvjsD4gCrpVkr32HbiSjXS5RUfZ6E2zNLFXHVAOOo3DvZ-0gjcmlSecgC-y1VxW9rkDmj5Umo=s640-h400-e365-rw",
+  "screenshotUrl": "https://lh5.googleusercontent.com/G-VvjsD4gCrpVkr32HbiSjXS5RUfZ6E2zNLFXHVAOOo3DvZ-0gjcmlSecgC-y1VxW9rkDmj5Umo=s640-h400-e365-rw",
   "description": "Wanikanify takes the vocabulary you've studied, finds the english word on a webpage and substitutes the kanji character. As you learn more kanji, your webpages begin to fill  with kanji! Wanikanify can find word anywhere on a webpage and replace it for kanji characters. It is a  utility for practicing and recalling vocabulary you may have forgotten. "
 }

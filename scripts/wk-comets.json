@@ -1,15 +1,15 @@
 {
 
   "name": "WKcomets",
-  "latest_version": "",
-  "last_update": "",
+  "latestVersion": "",
+  "lastUpdate": "",
   "author": "Maltose",
   "type": "Flash/HTML Game",
   "supported": "",
   "status": "",
   "license": "",
-  "source_url": "http://www.wanikani.com/chat/api-and-third-party-apps/2722",
+  "sourceUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/2722",
   "homepage": "http://trehalose.github.io/wkcomets/",
-  "screenshot_url": "http://i195.photobucket.com/albums/z184/OzoneButt/waka/previewStartpage_zps8f8f9aae.gif",
+  "screenshotUrl": "http://i195.photobucket.com/albums/z184/OzoneButt/waka/previewStartpage_zps8f8f9aae.gif",
   "description": "Dare to fight besides the WaniKani and save the world from the evil kanji comets!"
 }
