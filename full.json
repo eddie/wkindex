@@ -14,7 +14,26 @@
         }, 
         "latestVersion": "1.2", 
         "type": "Android app", 
+        "id": "wk-speed", 
         "description": "This (unofficial) app for Android is a supplemental tool to aid  fast recognition of terms and vocabulary.  The time to choose the correct answer for a given card gets progressively shorter for continuous correct streaks. CAUTION: You should be careful with using this tool as it will interfere with the concept of learning by Spaced Repetition. I'd only advise using it for Burned items, even though you can select lower levels."
+    }, 
+    {
+        "status": "unknown", 
+        "lastUpdate": "2013-11-11", 
+        "screenshotUrl": "http://imageshack.com/a/img844/5337/zt53.png", 
+        "sourceUrl": "", 
+        "name": "Review Order", 
+        "license": "", 
+        "author": "alucardeck", 
+        "homepage": "http://www.wanikani.com/chat/api-and-third-party-apps/3023", 
+        "supported": "unknown", 
+        "platform": {
+            "browser": "*"
+        }, 
+        "latestVersion": "0.31", 
+        "type": "userscript", 
+        "id": "review-order", 
+        "description": ""
     }, 
     {
         "status": "", 
@@ -32,25 +51,8 @@
         }, 
         "latestVersion": "1.6.4", 
         "type": "userscript", 
+        "id": "stroke-order", 
         "description": "Shows a kanji's stroke order on its page and during lessons and reviews."
-    }, 
-    {
-        "status": "", 
-        "lastUpdate": "2014-08-29", 
-        "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/4386", 
-        "sourceUrl": "https://github.com/looki/wanikanify/raw/master/WaniKanify.user.js", 
-        "name": "Wanikanify (Firefox)", 
-        "license": "", 
-        "author": "Looki", 
-        "homepage": "https://github.com/looki/wanikanify/", 
-        "supported": "yes", 
-        "screenshotUrl": "", 
-        "platform": {
-            "firefox": "*"
-        }, 
-        "latestVersion": "1.2", 
-        "type": "userscript", 
-        "description": "Firefox Userscript to mimic the behaviour of the WaniKanify Chrome app, which can replace known vocabulary from wanikani.com with its Japanese equivalent on any website."
     }, 
     {
         "status": "working", 
@@ -68,24 +70,27 @@
         }, 
         "latestVersion": "2.8", 
         "type": "userscript", 
+        "id": "real-numbers", 
         "description": "Replaces 42+ with the real number using WaniKani API v1.0"
     }, 
     {
         "status": "", 
-        "lastUpdate": "2014-01-23", 
-        "screenshotUrl": "https://lh5.googleusercontent.com/G-VvjsD4gCrpVkr32HbiSjXS5RUfZ6E2zNLFXHVAOOo3DvZ-0gjcmlSecgC-y1VxW9rkDmj5Umo=s640-h400-e365-rw", 
-        "sourceUrl": "https://www.wanikani.com/chat/api-and-third-party-apps/5154", 
-        "name": "Wanikanify", 
+        "lastUpdate": "2014-08-29", 
+        "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/4386", 
+        "sourceUrl": "https://github.com/looki/wanikanify/raw/master/WaniKanify.user.js", 
+        "name": "Wanikanify (Firefox)", 
         "license": "", 
-        "author": "chedkid", 
-        "homepage": "https://chrome.google.com/webstore/detail/wanikanify/dbnpfdbkecfgaffopefhalliecehhkhj?hl=en-US", 
-        "supported": "chrome", 
+        "author": "Looki", 
+        "homepage": "https://github.com/looki/wanikanify/", 
+        "supported": "yes", 
+        "screenshotUrl": "", 
         "platform": {
-            "chrome": "*"
+            "firefox": "*"
         }, 
-        "latestVersion": "1.0.5", 
-        "type": "Chrome extension", 
-        "description": "Wanikanify takes the vocabulary you've studied, finds the english word on a webpage and substitutes the kanji character. As you learn more kanji, your webpages begin to fill  with kanji! Wanikanify can find word anywhere on a webpage and replace it for kanji characters. It is a  utility for practicing and recalling vocabulary you may have forgotten. "
+        "latestVersion": "1.2", 
+        "type": "userscript", 
+        "id": "wanikanify-firefox", 
+        "description": "Firefox Userscript to mimic the behaviour of the WaniKanify Chrome app, which can replace known vocabulary from wanikani.com with its Japanese equivalent on any website."
     }, 
     {
         "status": "", 
@@ -103,42 +108,26 @@
         }, 
         "latestVersion": "1.15.4", 
         "type": "Android app", 
+        "id": "wanikani-mobile", 
         "description": ""
     }, 
     {
         "status": "", 
-        "lastUpdate": "YYYY-MM-DD", 
-        "threadUrl": "", 
-        "sourceUrl": "", 
-        "name": "", 
+        "lastUpdate": "2014-01-23", 
+        "screenshotUrl": "https://lh5.googleusercontent.com/G-VvjsD4gCrpVkr32HbiSjXS5RUfZ6E2zNLFXHVAOOo3DvZ-0gjcmlSecgC-y1VxW9rkDmj5Umo=s640-h400-e365-rw", 
+        "sourceUrl": "https://www.wanikani.com/chat/api-and-third-party-apps/5154", 
+        "name": "Wanikanify", 
         "license": "", 
-        "author": "", 
-        "homepage": "", 
-        "supported": "", 
-        "screenshotUrl": "", 
+        "author": "chedkid", 
+        "homepage": "https://chrome.google.com/webstore/detail/wanikanify/dbnpfdbkecfgaffopefhalliecehhkhj?hl=en-US", 
+        "supported": "chrome", 
         "platform": {
-            "browser": "*"
+            "chrome": "*"
         }, 
-        "latestVersion": "", 
-        "type": "", 
-        "description": ""
-    }, 
-    {
-        "status": "unknown", 
-        "lastUpdate": "2013-11-11", 
-        "screenshotUrl": "http://imageshack.com/a/img844/5337/zt53.png", 
-        "sourceUrl": "", 
-        "name": "Review Order", 
-        "license": "", 
-        "author": "alucardeck", 
-        "homepage": "http://www.wanikani.com/chat/api-and-third-party-apps/3023", 
-        "supported": "unknown", 
-        "platform": {
-            "browser": "*"
-        }, 
-        "latestVersion": "0.31", 
-        "type": "userscript", 
-        "description": ""
+        "latestVersion": "1.0.5", 
+        "type": "Chrome extension", 
+        "id": "wanikanify-chrome", 
+        "description": "Wanikanify takes the vocabulary you've studied, finds the english word on a webpage and substitutes the kanji character. As you learn more kanji, your webpages begin to fill  with kanji! Wanikanify can find word anywhere on a webpage and replace it for kanji characters. It is a  utility for practicing and recalling vocabulary you may have forgotten. "
     }, 
     {
         "status": "active", 
@@ -156,6 +145,7 @@
         }, 
         "latestVersion": "1.0.0", 
         "type": "Android App", 
+        "id": "wk-for-android", 
         "description": "WaniKani for Android is a client application for the kanji learning website wanikani.com. It sports a beautiful User Interface crafted according to Google's Material Design guidelines."
     }, 
     {
@@ -175,6 +165,7 @@
         "sourceUrl": "https://gist.github.com/Beanow/9ea55a4d73d6156f01c9/raw/0f2f1da608b4713a8364122d7e88276c9b10b604/wko.user.js", 
         "latestVersion": "1.1.1", 
         "type": "usersript", 
+        "id": "override", 
         "description": "One of my biggest peeves with Wanikani is how once you get something wrong, you can't change it. If you type too fast and make a typo, or if the spell checker doesn't like you, you're out of luck. It's really frustrating to know an answer but have Wanikani deny it to you because it wants the '-ing' form of the verb, but you typed the infinitive. Sometimes you get lucky, and the spell checker is lenient enough to mark the answer correctly. Other times, that's not the case.\nThen, there's the other type of mistakes. The ones where you type a reading but were supposed to type a meaning, or the opposite. Those are really annoying, since most times you actually knew the correct reading or meaning respectively.\n\nMy problem is that the decision was completely out of my hands. My objective is to learn Kanji, and I'm not going to cheat since that wouldn't bring me closer to where I want to be, but Wanikani decides that since some people could cheat if given the chance, I can't be trusted and does not let me correct it when it is wrong.\n\n\nBut now, with the client-side reviews update, we can finally do something about all this!\n\n\nThis userscript fixes this problem, by adding an \"Ignore Answer\" button to the footer during reviews. This button can be clicked anytime an answer has been marked as wrong by Wanikani.\n\nOnce clicked, the current answer will be changed from \"incorrect\" (red background) to \"ignored\" (yellow background), and Wanikani will forget you even answered it.\nThis way, the item will appear again later on during the review cycle, effectively giving you a second chance to get it right without stupid typos or the spell checker getting in the way.\n\nYou may also use '~' as a hotkey, instead of clicking the button."
     }, 
     {
@@ -192,6 +183,7 @@
         }, 
         "latestVersion": "", 
         "type": "Flash/HTML game", 
+        "id": "shoku-rain", 
         "description": "It is basically a rain-drop catching game for practicing remembering your Kanji items and their readings and meanings."
     }, 
     {
@@ -209,6 +201,7 @@
         }, 
         "latestVersion": "", 
         "type": "game", 
+        "id": "wk-comets", 
         "description": "Dare to fight besides the WaniKani and save the world from the evil kanji comets!"
     }, 
     {
@@ -227,6 +220,7 @@
         }, 
         "latestVersion": "1.6.4", 
         "type": "userscript", 
+        "id": "kanji-highlighter", 
         "description": "Highlights all kanji on a website using a specific color, depending on the level that it can be found in."
     }, 
     {
@@ -245,6 +239,7 @@
         }, 
         "latestVersion": "", 
         "type": "website", 
+        "id": "duendcat", 
         "description": " of the things that I've found difficult while using Wanikani has been keeping burned words/kanji fresh  my memory whenever I'm too busy/distracted to sit  and do some real hardcore studying, which I've discovered can be achieved (with the least amount of effort) by keeping a list of short sentences nearby and then incorporating those into some kind of continuous 24/7 \"total immersion\" environment. So  November last year I started working on a simple slideshow app that could be left running permanently on a dedicated computer (e.g. Raspberry Pi) which would cycle randomly through sentences  Japanese that contain kanji that I've studied.  This eventually resulted  a more ambitious web app called Duendecat that contains tens of thousands of sentences from the updated version of the Tanaka corpus, which are grouped into Wanikani levels 1-50"
     }
 ]
