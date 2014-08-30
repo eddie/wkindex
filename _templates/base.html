@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>wkindex</title>
+  <title>{% block title %}wkindex{% endblock %}</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css">
   <link rel="stylesheet" href="https://fontastic.s3.amazonaws.com/rifLVeDh7zFjiWVHguY9QR/icons.css">
   <style>
@@ -41,41 +41,17 @@
 <body>
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
-      <a class="navbar-brand" href="../">wkindex</a>
+      <a class="navbar-brand" href="{% block index_link %}{% endblock %}">wkindex</a>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="../about.html">About</a></li>
+        <li><a href="{{ self.index_link() }}about.html">About</a></li>
         <li><a href="https://github.com/eddie/wkindex">Fork on GitHub</a></li>
       </ul>
     </div>
   </nav>
 
   <div class="container">
-    
-  <div class="row">
-    <div class="col-md-12">
-      <h1 class="no-ma">Wanikanify (Firefox)</h1>
-      <p class="lead">by Looki &middot;
-        
-          <i class="icon-firefox"></i>
-        
-        
-          &middot; <a href="https://github.com/looki/wanikanify/" class="iconified" target="_blank"><i class="icon icon-link"></i> <span>homepage</span></a>
-        
-        
-          &middot; <a href="http://www.wanikani.com/chat/api-and-third-party-apps/4386" class="iconified" target="_blank"><i class="icon icon-thread"></i> <span>forum</span></a>
-        
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-8">
-      <p>Firefox Userscript to mimic the behaviour of the WaniKanify Chrome app, which can replace known vocabulary from wanikani.com with its Japanese equivalent on any website.</p>
-    </div>
-    <div class="col-md-4 well">
-      <a href="https://github.com/looki/wanikanify/" target="_blank" class="btn btn-primary btn-block">Get it</a>
-    </div>
-  </div>
-
+    {% block content %}{% endblock %}
   </div>
 </body>
 </html>
+

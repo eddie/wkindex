@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Wakaindex</title>
+  <title>wkindex</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css">
   <link rel="stylesheet" href="https://fontastic.s3.amazonaws.com/rifLVeDh7zFjiWVHguY9QR/icons.css">
   <style>
@@ -21,33 +21,83 @@
       position: relative;
       bottom: -0.2em;
     }
+
+    a.iconified, a.iconified:hover, a.iconified:active, a.iconified:focus {
+      text-decoration: none;
+    }
+
+    a.iconified:hover span {
+      text-decoration: underline;
+    }
+/*
+    a        [class^="icon-"], a        [class*=" icon-"],
+    a:hover  [class^="icon-"], a:hover  [class*=" icon-"],
+    a:active [class^="icon-"], a:active [class*=" icon-"],
+    a:focus  [class^="icon-"], a:focus  [class*=" icon-"] {
+      text-decoration: none;
+    }*/
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h3 class="no-ma">WK Overide</h3>
-          <p>by ruipgpinheiro &middot;
-          
-            <i class="icon-firefox"></i>
-          
-            <i class="icon-chrome"></i>
-          
-            <i class="icon-opera"></i>
-          
-            <i class="icon-safari"></i>
-          
-            <i class="icon-ie"></i>
-          
-          </p>
-          <div>
-            <a href="http://www.wanikani.com/chat/api-and-third-party-apps/2940" class="btn btn-success">Get it</a>
-          </div>
-        </div>
-      </div>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <a class="navbar-brand" href="../">wkindex</a>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../about.html">About</a></li>
+        <li><a href="https://github.com/eddie/wkindex">Fork on GitHub</a></li>
+      </ul>
     </div>
+  </nav>
+
+  <div class="container">
+    
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="no-ma">WK Overide</h1>
+      <p class="lead">by ruipgpinheiro &middot;
+        
+          <i class="icon-firefox"></i>
+        
+          <i class="icon-chrome"></i>
+        
+          <i class="icon-opera"></i>
+        
+          <i class="icon-safari"></i>
+        
+          <i class="icon-ie"></i>
+        
+        
+          &middot; <a href="http://www.wanikani.com/chat/api-and-third-party-apps/2940" class="iconified" target="_blank"><i class="icon icon-link"></i> <span>homepage</span></a>
+        
+        
+          &middot; <a href="http://www.wanikani.com/chat/api-and-third-party-apps/2940" class="iconified" target="_blank"><i class="icon icon-thread"></i> <span>forum</span></a>
+        
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <p>One of my biggest peeves with Wanikani is how once you get something wrong, you can't change it. If you type too fast and make a typo, or if the spell checker doesn't like you, you're out of luck. It's really frustrating to know an answer but have Wanikani deny it to you because it wants the '-ing' form of the verb, but you typed the infinitive. Sometimes you get lucky, and the spell checker is lenient enough to mark the answer correctly. Other times, that's not the case.
+Then, there's the other type of mistakes. The ones where you type a reading but were supposed to type a meaning, or the opposite. Those are really annoying, since most times you actually knew the correct reading or meaning respectively.
+
+My problem is that the decision was completely out of my hands. My objective is to learn Kanji, and I'm not going to cheat since that wouldn't bring me closer to where I want to be, but Wanikani decides that since some people could cheat if given the chance, I can't be trusted and does not let me correct it when it is wrong.
+
+
+But now, with the client-side reviews update, we can finally do something about all this!
+
+
+This userscript fixes this problem, by adding an "Ignore Answer" button to the footer during reviews. This button can be clicked anytime an answer has been marked as wrong by Wanikani.
+
+Once clicked, the current answer will be changed from "incorrect" (red background) to "ignored" (yellow background), and Wanikani will forget you even answered it.
+This way, the item will appear again later on during the review cycle, effectively giving you a second chance to get it right without stupid typos or the spell checker getting in the way.
+
+You may also use '~' as a hotkey, instead of clicking the button.</p>
+    </div>
+    <div class="col-md-4 well">
+      <a href="http://www.wanikani.com/chat/api-and-third-party-apps/2940" target="_blank" class="btn btn-primary btn-block">Get it</a>
+    </div>
+  </div>
+
   </div>
 </body>
 </html>

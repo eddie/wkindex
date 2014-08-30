@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block index_link %}./{% endblock %}
+{% block title %}About | {{super()}} {% endblock %}
+{% block content %}
+  <h1>wkindex</h1>
+
+  <p class="lead">Those of you who use userscripts and extensions for <a href="https://wanikani.com">WaniKani</a> probably are already aware of the state of the ecosystem. This project aims to solve that, and provide an index of all userscripts/browser extensions and apps so that they can be used openly in projects. </p>
+
+  <h2>Goals 目標</h2>
+
+  <ul>
+    <li>Provide an up to date index of WK add-ons.</li>
+    <li>Provide a mirror for latest version of these scripts (userscripts only, with permission).</li>
+    <li>Provide the data in a universal format for easy access.</li>
+    <li>Make contributing easy, more help = better quality index.</li>
+    <li>Contain information on userscripts, apps and browser extensions.</li>
+  </ul>
+
+  <h2>Contributing</h2>
+
+  <p>You can help us! Details <a href="https://github.com/eddie/wkindex#getting-involved">on GitHub</a>. </p>
+
+  <h2>API</h2>
+
+  <p>Want to use the data? Great! We expose some JSON hosted on GitHub pages. Try this:</p>
+
+  <pre>$ curl http://eddie.github.io/wkindex/api/scripts/wk-speed.json
+{
+  "name": "WaniKani Speed",
+  "latestVersion": "1.2",
+  "lastUpdate": "2013-12-01",
+  "author": "from the nfinite",
+  "type": "Android app",
+  "supported": "",
+  "status": "",
+  "platform": {
+    "android": ">=2.1"
+  },
+  "license": "",
+  "sourceUrl": "",
+  "homepage": "https://play.google.com/store/apps/details?id=com.wanikani.wkspeed",
+  "screenshotUrl": "https://lh6.ggpht.com/i3D9WMgaVYIeo4uYXqPzrkJtKEsMFm_BZq_OEGwgfmrZ5XYyG_RXiDJjnlyQdxr3UoY=h900-rw",
+  "description": "This (unofficial) app for Android is a supplemental tool to aid  fast recognition of terms and vocabulary. ..."
+}</pre>
+
+  <p>
+    <a class="btn btn-primary" href="https://github.com/eddie/wkindex/wiki/API">See documentation</a>
+    <a class="btn btn-default" href="https://github.com/eddie/wkindex#Schema">Schema</a>
+  </p>
+{% endblock %}

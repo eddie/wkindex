@@ -44,3 +44,7 @@ for app in apps:
   page = app_template.render(app=app).encode("utf-8")
   with open("apps/%s.html" % app['id'], 'w') as f:
     f.write(page)
+
+about = env.get_template('about.html').render().encode("utf-8")
+with open("about.html", 'w') as f:
+  f.write(about)

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Wakaindex</title>
+  <title>wkindex</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css">
   <link rel="stylesheet" href="https://fontastic.s3.amazonaws.com/rifLVeDh7zFjiWVHguY9QR/icons.css">
   <style>
@@ -21,25 +21,59 @@
       position: relative;
       bottom: -0.2em;
     }
+
+    a.iconified, a.iconified:hover, a.iconified:active, a.iconified:focus {
+      text-decoration: none;
+    }
+
+    a.iconified:hover span {
+      text-decoration: underline;
+    }
+/*
+    a        [class^="icon-"], a        [class*=" icon-"],
+    a:hover  [class^="icon-"], a:hover  [class*=" icon-"],
+    a:active [class^="icon-"], a:active [class*=" icon-"],
+    a:focus  [class^="icon-"], a:focus  [class*=" icon-"] {
+      text-decoration: none;
+    }*/
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h3 class="no-ma">Wanikanify</h3>
-          <p>by chedkid &middot;
-          
-            <i class="icon-chrome"></i>
-          
-          </p>
-          <div>
-            <a href="https://chrome.google.com/webstore/detail/wanikanify/dbnpfdbkecfgaffopefhalliecehhkhj?hl=en-US" class="btn btn-success">Get it</a>
-          </div>
-        </div>
-      </div>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <a class="navbar-brand" href="../">wkindex</a>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../about.html">About</a></li>
+        <li><a href="https://github.com/eddie/wkindex">Fork on GitHub</a></li>
+      </ul>
     </div>
+  </nav>
+
+  <div class="container">
+    
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="no-ma">Wanikanify</h1>
+      <p class="lead">by chedkid &middot;
+        
+          <i class="icon-chrome"></i>
+        
+        
+          &middot; <a href="https://chrome.google.com/webstore/detail/wanikanify/dbnpfdbkecfgaffopefhalliecehhkhj?hl=en-US" class="iconified" target="_blank"><i class="icon icon-link"></i> <span>homepage</span></a>
+        
+        
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <p>Wanikanify takes the vocabulary you've studied, finds the english word on a webpage and substitutes the kanji character. As you learn more kanji, your webpages begin to fill  with kanji! Wanikanify can find word anywhere on a webpage and replace it for kanji characters. It is a  utility for practicing and recalling vocabulary you may have forgotten. </p>
+    </div>
+    <div class="col-md-4 well">
+      <a href="https://chrome.google.com/webstore/detail/wanikanify/dbnpfdbkecfgaffopefhalliecehhkhj?hl=en-US" target="_blank" class="btn btn-primary btn-block">Get it</a>
+    </div>
+  </div>
+
   </div>
 </body>
 </html>
