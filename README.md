@@ -40,30 +40,8 @@ Please submit a pull request, or if you are unable to do this,  post the require
 
 ## Platform
 
-Platform should be specified in the format shown below:
+Platform should be specified in the format described on the [Platform](https://github.com/eddie/wkindex/wiki/Platforms) Wiki page.
 
-```
-
-"platform": {
-  "browser": "*"
-}
-
-```
-
-The above example shows an add-on which is supported in all major browsers.
-If the add-on is only supported in Chrome version 30+ and Firefox version 31+ it might look something like this:
-
-```
-
-"platform": {
-  "chrome": ">=30.0",
-  "firefox": ">=31.0"
-}
-
-```
-
-Available platforms values include Firefox, chrome, safari, android, OSX, windows. 
-If a platform is missing, it is assumed that there is no support for that platform.
 
 # Naming Conventions
 
