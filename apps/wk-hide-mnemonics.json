@@ -1,0 +1,18 @@
+{
+  "name": "WaniKani hide mnemonics",
+  "latestVersion": "1.8",
+  "lastUpdate": "2014-02-13",
+  "author": "nibarius",
+  "type": "userscript",
+  "supported": "updates",
+  "status": "working",
+  "platform": {
+    "browser": "*"
+  },
+  "license": "MIT",
+  "threadUrl": "https://www.wanikani.com/chat/api-and-third-party-apps/4021",
+  "sourceUrl": "http://userscripts.org/scripts/show/184925",
+  "homepage": "https://github.com/nibarius/wkhidem",
+  "screenshotUrl": "",
+  "description": "A user script that makes it possible to hide mnemonics on WaniKani."
+}
