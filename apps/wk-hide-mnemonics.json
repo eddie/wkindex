@@ -1,5 +1,4 @@
 {
-
   "name": "WaniKani hide mnemonics",
   "latestVersion": "1.8",
   "lastUpdate": "2014-02-13",
@@ -17,5 +16,3 @@
   "screenshotUrl": "",
   "description": "A user script that makes it possible to hide mnemonics on WaniKani."
 }
-
-
