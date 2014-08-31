@@ -1,20 +1,19 @@
 {
-
+  "name": "Real Numbers",
   "name": "Review Order",
-  "latestVersion": "0.31",
-  "lastUpdate": "2013-11-11",
+  "author": "penx",
   "author": "alucardeck",
   "type": "userscript",
-  "supported": "unknown",
-  "status": "unknown",
+  "license": "Unknown",
+  "supported": "no",
+  "latestVersion": "0.31",
+  "lastUpdate": "2013-11-11",
+  "homepage": null,
+  "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/3023",
   "platform": {
     "browser": "*"
   },
-  "license": "",
-  "sourceUrl": "",
-  "homepage": "http://www.wanikani.com/chat/api-and-third-party-apps/3023",
-  "screenshotUrl": "http://imageshack.com/a/img844/5337/zt53.png",
-  "description": ""
+  "installUrl": "https://gist.github.com/iamale/443d2f6b75e556883958/raw/9b16d53df021a96d7fe71df4bc498be38cd296eb/Real%20Numbers.user.js",
+  "screenshotUrls": [],
+  "description": "Reorders review stack by type (Radical, Kanji, Vocab)."
 }
-
-

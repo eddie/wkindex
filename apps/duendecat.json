@@ -1,19 +1,17 @@
 {
-
   "name": "Duendecat",
-  "latestVersion": "",
-  "lastUpdate": "2014-04-08",
-  "author": "transality",
+  "author": "transality (http://transality.duendecat.com/)",
   "type": "website",
+  "license": null,
   "supported": "yes",
-  "status": "active",
+  "latestVersion": null,
+  "lastUpdate": null,
+  "homepage": "http://duendecat.com/",
+  "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/4254",
   "platform": {
     "browser": "*"
   },
-  "license": "",
-  "sourceUrl": "",
-  "threadUrl": "http://www.wanikani.com/chat/api-and-third-party-apps/4254", 
-  "homepage": "http://duendecat.com/",
+  "installUrl": null,
   "screenshotUrl": "",
-  "description": "In November last year I started working on a simple slideshow app that could be left running permanently on a dedicated computer (e.g. Raspberry Pi) which would cycle randomly through sentences in Japanese that contain kanji that I've studied. This eventually resulted in a more ambitious web app called Duendecat that contains tens of thousands of sentences from the updated version of the Tanaka corpus, which are grouped into Wanikani levels 1-50."
+  "description": "An online tool for practicing Japanese grammar thatfinds short sentences in Japanese, matches them to a Wanikani kanji set (numbered 1 to 50) and then loops them randomly."
 }
